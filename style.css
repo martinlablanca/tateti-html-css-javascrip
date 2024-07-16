@@ -1,0 +1,32 @@
+h1, h4{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.Tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);  /* los separa en columnas de a 3 */
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+.botonReset{
+    width: auto;
+    height: auto;
+    border-color: 5px solid black;
+    cursor: pointer;
+}
+
+.casillero {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    cursor: pointer;  /* cambia el cursor*/
+}
+
+body{
+    background-color: rgb(53, 54, 58);
+}
+
+
+
